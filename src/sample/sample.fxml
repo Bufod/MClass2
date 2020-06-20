@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="229.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сцена 1" AnchorPane.bottomAnchor="174.2119140625" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="228.99658203125" AnchorPane.topAnchor="173.9150390625">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Button fx:id="goForward" layoutX="247.0" layoutY="261.0" mnemonicParsing="false" onAction="#goForwardOnAction" text="Переход вперед" />
+   </children>
+</AnchorPane>
